@@ -1,0 +1,35 @@
+@font-face {
+    font-family: moonPhases;
+    src: url(/fonts/moon_phases.ttf);
+}
+
+
+.moonPhases {
+	display: inline-block;
+}
+
+.moonPhases > div:first-child {
+    font-family: moonPhases;
+    font-size: 28pt;
+}
+
+.day {
+	font-size: 18pt;
+	font-weight: bold;
+}
+
+.equinox {
+	display: inline-block;
+	padding-right: 20px;
+}
+
+.equinox i {
+	font-size: 28pt;
+	color: #FFD800;
+}
+
+.year-nav {
+	height: 100% !important;
+	overflow-y: scroll !important;
+}
+
